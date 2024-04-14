@@ -45,7 +45,7 @@ function equal_height_columns_script() {
             if ($container_classes && $item_classes) {
                 $count = count($container_classes);
                 for ($i = 0; $i < $count; $i++) {
-                    echo "equalHeight('{$container_classes[$i]}', '{$item_classes[$i]}');";
+                    echo "equalHeight('" . esc_js($container_classes[$i]) . "', '" . esc_js($item_classes[$i]) . "');";
                 }
             }
             ?>
@@ -56,7 +56,7 @@ function equal_height_columns_script() {
                if ($container_classes && $item_classes) {
                     $count = count($container_classes);
                     for ($i = 0; $i < $count; $i++) {
-                        echo "equalHeight('{$container_classes[$i]}', '{$item_classes[$i]}');";
+                        echo "equalHeight('" . esc_js($container_classes[$i]) . "', '" . esc_js($item_classes[$i]) . "');";
                     }
                 }
                 ?>
