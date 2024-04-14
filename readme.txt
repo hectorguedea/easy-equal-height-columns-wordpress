@@ -1,6 +1,7 @@
 === Easy Equal Height Columns ===
-Contributors: Héctor Guedea
-Tags: equal height, columns, CSS, layout, design
+Contributors: hectorguedea
+Donate link: https://hectorguedea.com/donate
+Tags: equal-height, columns, CSS, layout, design
 Requires at least: 5.0
 Tested up to: 5.8
 Stable tag: 1.0
@@ -8,7 +9,7 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Optimize your website layout with Easy Equal Height Columns. Synchronize column heights, manage containers, and customize CSS properties for seamless design harmony.
+Optimize your site with Easy Equal Height Columns. Sync heights, manage containers, and customize CSS for design harmony
 
 == Description ==
 
@@ -57,3 +58,7 @@ This is the first release of Easy Equal Height Columns. Enjoy the seamless desig
 == Author ==
 Héctor Guedea
 Visit the author's website: [https://hectorguedea.com](https://hectorguedea.com)
+
+== Donate ==
+Support the development of Easy Equal Height Columns by making a donation. Your support is greatly appreciated!
+[Click here to donate!](https://hectorguedea.com/donate)

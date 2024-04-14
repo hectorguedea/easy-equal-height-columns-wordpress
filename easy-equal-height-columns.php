@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Easy Equal Height Columns
-Description: Optimize your website layout with Equal Height Columns. Synchronize column heights, manage containers, and customize CSS properties for seamless design harmony.
+Description: Optimize your site with Easy Equal Height Columns. Sync heights, manage containers, and customize CSS for design harmony
 Version: 1.0
 Author: Héctor Guedea
 Author URI: https://hectorguedea.com
