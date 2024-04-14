@@ -81,8 +81,6 @@ function easy_equal_height_columns_settings_page() {
         min-width: 255px;
         width: 100%; 
     }
-
-    /* A continuación, el resto de tus estilos... */
     
     .announcement {
         background-color: #f8f9fa;
@@ -202,11 +200,10 @@ function easy_equal_height_columns_settings_page() {
 
    <script type="text/javascript">
     jQuery(document).ready(function($) {
-        // Function to add a new configuration row
         $('#add-settings-row').on('click', function() {
             let newRow = $('.equal-height-settings-row').first().clone();
-            newRow.find('input').val(''); // Clear input values
-            newRow.find('.delete-row').remove(); // Remove delete button from the first row
+            newRow.find('input').val(''); 
+            newRow.find('.delete-row').remove(); 
             newRow.find('label').each(function() {
                 let labelText = $(this).text().trim();
                 if (labelText === 'Main Container') {
@@ -218,7 +215,6 @@ function easy_equal_height_columns_settings_page() {
             $('#equal-height-settings-container').append(newRow);
         });
 
-        // Function to delete a configuration row
         $(document).on('click', '.delete-row', function() {
             if ($('.equal-height-settings-row').length > 1) {
                 $(this).closest('.equal-height-settings-row').remove();
