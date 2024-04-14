@@ -5,7 +5,7 @@ Description: Optimize your website layout with Equal Height Columns. Synchronize
 Version: 1.0
 Author: Héctor Guedea
 Author URI: https://hectorguedea.com
-Plugin URI: https://hectorguedea.com/equal-height-columns
+Plugin URI: https://hectorguedea.com/easy-equal-height-columns-plugin
 */
 
 function easy_equal_height_columns_plugin_settings_link( $links ) {
